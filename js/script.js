@@ -1,8 +1,8 @@
 const images = [
-  "images/1.jpeg",
-  "images/2.jpeg",
-  "images/3.jpeg",
-  "images/4.jpeg",
+  "images/1.jpg",
+  "images/2.jpg",
+  "images/3.jpg",
+  "images/4.jpg",
   "images/5.jpeg",
 ];
 let currentIndex = 0;
@@ -28,3 +28,12 @@ prevBtn.addEventListener("click", () => {
   showImage();
 });
 showImage();
+setInterval(() => {
+  currentIndex++;
+
+  if (currentIndex >= images.length) {
+    currentIndex = 0;
+  }
+
+  showImage();
+}, 3000);
