@@ -76,7 +76,7 @@ This project practices several important JavaScript concepts:
 
 ## Live Demo
 
-
+ https://mahshadaliyari.github.io/slider-task/
 
 ---
 
