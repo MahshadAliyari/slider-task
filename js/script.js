@@ -1,9 +1,9 @@
 const images = [
-  "images/1.jpg",
-  "images/2.jpg",
-  "images/3.jpg",
-  "images/4.jpg",
-  "images/5.jpeg",
+  "images/iphone.png",
+  "images/laptop.png",
+  "images/airpod.png",
+  "images/headphone.png",
+  "images/ipad.png",
 ];
 
 let currentIndex = 0;
